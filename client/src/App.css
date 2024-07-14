@@ -1,0 +1,36 @@
+body {
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #262626;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: fit-content;
+  display: inline-block;
+}
+
+.card.card-divider {
+  width: 60%;
+  height: 2px;
+  background-color: #262626;
+  margin: 10px auto;
+  align-items: center;
+  /* Center the divider */
+}
+.card.card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #262626;
+  /* Change title color to a darker shade */
+  font-size: 28px;
+}
+
+.card.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #262626;
+}
